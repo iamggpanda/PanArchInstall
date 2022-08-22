@@ -1,0 +1,1 @@
+archinstall --guided <path>
