@@ -42,3 +42,8 @@ vim /etc/mkinitcpio.conf
 vim /etc/default/grub
 # change video resolution if necessary GRUB_GFX_MODE=auto (change this to 1920x1080) and in GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet" add video=1920x1080
 grub-mkconfig -o /boot/grub/grub.cfg
+
+
+#to be added/addressed in the future 
+system timezone  : ln -sf /usr/share/zoneinfo/<region>/<country> /etc/localtime  -- so maybe remove this setting in the de/wm setup file and add it to the archmain.sh
+change localization in the archmain.sh script. It just doesn't work that way. Set localization manually maybe ???
