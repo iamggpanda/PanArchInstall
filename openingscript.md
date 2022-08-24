@@ -47,3 +47,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 #to be added/addressed in the future 
 system timezone  : ln -sf /usr/share/zoneinfo/<region>/<country> /etc/localtime  -- so maybe remove this setting in the de/wm setup file and add it to the archmain.sh
 change localization in the archmain.sh script. It just doesn't work that way. Set localization manually maybe ???
+
+create new file and test the command on line 7-11 on archmain.sh
+try to wrap up the whole system time issue in archmain .sh
+completely remove from the frontend.
