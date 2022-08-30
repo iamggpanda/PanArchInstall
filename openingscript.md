@@ -3,7 +3,7 @@ lsblk
 gdisk /dev/<diskname>
 n - new partitons.  500 mb EFI,  xMB swap, chonky root , rest home
 enter starting and ending sizes 
-enter the type of file system necessary
+enter the type of file system necessary: Code for EFI system is ef00
 w - write changes ; y - confirm changes
 lsblk = will now show you the new partitions
 
